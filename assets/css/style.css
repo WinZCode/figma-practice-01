@@ -1,0 +1,20 @@
+/** Initial */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #2AC9BF;
+}
+
+body {
+    font-size : 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/** Common */
