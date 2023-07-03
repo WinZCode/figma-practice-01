@@ -18,3 +18,87 @@ body {
 }
 
 /** Common */
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** Header */
+.header {
+    background: #FFFFFF;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -40px;
+    z-index: 1;
+}
+
+.header .body {
+    padding: 52px 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header .logo-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .brand-name {
+    margin-left: 6px;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav li a {
+    color: #2F3A3B;
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 400;
+}
+
+nav li a:hover,
+.header li.active a  {
+    color: #2F3A3B;
+    text-shadow:  1px 0 0 currentColor;
+}
+
+.header nav li {
+    margin-left: 39px;
+}
+
+.header .cta-group .header-cta {
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.header .header-cta.sign-in {
+    color: #494949;
+    font-weight: 400;
+}
+
+.header .header-cta.sign-up {
+    color: var(--primary-color);
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid var(--primary-color);
+}
+
+.header .header-cta.sign-up:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
