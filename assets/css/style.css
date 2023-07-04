@@ -35,6 +35,19 @@ a {
     line-height: 1.16;
 }
 
+.heading.lv2 {
+    color: #0D1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.title {
+    color: #767E7E;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .btn {
     display: inline-block;
     padding: 0 41px;
@@ -323,6 +336,73 @@ nav li a:hover,
     font-weight: 500;
 }
 
+/** FEATURE */
+
+.features {
+    margin-top: 65px;
+    padding: 65px 0;
+}
+
+.features .heading {
+    margin-top: 18px;
+    width: 49%;
+}
+
+.features .desc {
+    margin-top: 18px;
+    width: 51%;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature-list {
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature-item {
+    min-width: 224px;
+    margin-right: 209px;
+}
+
+.feature-item .feature-logo {
+    width: 102px;
+    height: 106px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-item .feature-logo.monitor {
+    background: #FFC147;
+}
+
+.feature-item .feature-logo.discuss {
+    background: #FF947A;
+}
+
+.feature-item .feature-logo.task {
+    background: #BF83FF;
+}
+
+.feature-item .feature-heading {
+    margin-top: 26px;
+    color: #0D1111;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.feature-item .feature-desc {
+    margin-top: 16px;
+    color: #9DA6A5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+}
 
 
 
