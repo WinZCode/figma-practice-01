@@ -42,6 +42,13 @@ a {
     line-height: 1.33;
 }
 
+.heading.lv3 {
+    color: #0D1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .title {
     color: #767E7E;
     font-size: 1.2rem;
@@ -403,6 +410,142 @@ nav li a:hover,
     font-weight: 400;
     line-height: 1.69;
 }
+
+/** COURSES */
+.courses {
+    margin-top: 65px;
+}
+
+.courses .heading.lv2 {
+    margin-top: 18px;
+}
+
+.courses .about {
+    margin-top: 19px;
+}
+
+.courses .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .about .desc {
+    width: 525px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.courses .about .view-course {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+.courses .courses-list {
+    margin: 79px 0 124px;
+    display: flex;
+    gap: 47px;
+}
+
+.courses .item {
+    width: 33.333%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses .item .thumb {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0.7;
+    background: #D0EFED;
+}
+
+.courses .item .info {
+    position: absolute;
+    bottom: -124px;
+    width: 325px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.courses .item .fee {
+    margin-top: 16px;
+    color: #767E7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .item .fee strong {
+    color: #0D1111;
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses .item .desc {
+    margin-top: 6px;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .item .class-info {
+    margin-top: 18px;
+    display: flex;
+}
+
+.courses .item .class-info span {
+    display: flex;
+    align-items: center;
+    color: #9DA6A5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.courses .item .class-info .classes::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.courses .item .class-info .times::before {
+    content: "";
+    margin-right: 10px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.courses .sumary {
+    padding: 265px 0;
+}
+
+.courses .sumary-list {
+    display: flex;
+    align-items: center;
+    height: 131px;
+}
+
+
 
 
 
