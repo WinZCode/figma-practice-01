@@ -73,6 +73,15 @@ a {
     opacity: 0.9;
 }
 
+.logo-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-name {
+    margin-left: 6px;
+}
 /** Header */
 .header {
     background: #FFFFFF;
@@ -89,17 +98,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-
-.header .logo-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header .brand-name {
-    margin-left: 6px;
 }
 
 .header nav ul {
@@ -671,10 +669,81 @@ nav li a:hover,
     right: 171px;
 }
 
+/** CTA */
+.cta {
+    margin: 65px 0;
+    background: #DEF6F5;
+}
 
+.cta .body {
+    padding: 76px 0 88px;
+    display: flex;
+    align-items: center;
+}
 
+.cta .info {
+    margin-right: 410px;
+}
 
+.cta .info .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
 
+/** FOOTER */
+
+.footer {
+    padding: 65px 0 ;
+}
+
+.row {
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col .label {
+    padding-bottom: 8px ;
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.col li a {
+    display: block;
+    margin-top: 18px;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.col li a:hover {
+    text-decoration: underline;
+}
+
+.social li a {
+    display: flex;
+    align-items: center;
+}
+
+.social li a img {
+    margin-right: 9px;
+}
+
+.footer .copy-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B0B5B4;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 
