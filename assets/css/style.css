@@ -109,6 +109,7 @@ a {
     font-size: 1.6rem;
     line-height: normal;
     font-weight: 400;
+    scroll-behavior: smooth;
 }
 
 nav li a:hover,
